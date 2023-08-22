@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: fantasy, sans-serif; */
+}
+
+nav{
+    background: #2c2832;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: wheat;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: wheat;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: #c04242;
+    transition: .5s;
+}
+
+/* div{
+    position: static;
+    background: url(coffee_background-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100% ;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr) ;
+    grid-gap: 1.5rem;
+    align-items: center ;
+}
+div h1 {
+    color: wheat;
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+div p{
+    color: wheat;
+    font-family: cursive, Helvetica, sans-serif;
+    left: 100px;
+    border-bottom-left-radius: 100px;
+    
+} */
+
+.container{
+    background: url(coffee_background-transformed.jpeg);
+    height: 91.2vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    color: wheat;
+    font-family: cursive, Helvetica, sans-serif;
+    line-height: 45px;
+    max-width: 900px;
+}
+
+.text h1{
+    text-transform: uppercase;
+}
